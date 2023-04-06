@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.card-content{
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    width: 575px;
+    height: 575px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #8b8a8a;
+}
+.box{
+    border: solid #3882f6;
+}
+.shed{
+    background-color: black;
+}
+
+#grid-number{
+    margin: 16px;
+    padding: 16px;
+}
